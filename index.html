@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janice Tek</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+    <script src="disableinspect.js"></script>
+    <script src="https://kit.fontawesome.com/2acedf3b83.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        <video autoplay loop muted plays-inline class="background-clip">
+            <source src="3D.mp4" type="video/mp4">
+        </video>
+
+        <nav> 
+            <!-- create links that point to id -->
+            <!-- <img src="images/face.jpg" class = "logo"> -->
+            <ul id = "sidemenu">
+                <li><a href = "#header">Home</a></li>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#projects">Projects</a></li>
+                <li><a href = "#experiences">Portfolio</a></li>
+                <li><a href = "#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>JANICE TEK</p>
+            <h1>Learn more about <span>me.</span></h1>
+            <a href="images/JaniceResume (1).pdf" download class="btn btn2">Download CV</a>
+        </div>
+    </div>
+</div>
+
+<!--ABOUT--> 
+<div id= "about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src= "images/face.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Welcome to my personal website. I am Janice Tek, a first-year Computer Science undergraduate at the National University of Singapore (NUS). My academic foundation was built at Sunway College, where I achieved 4 A*s in Further Mathematics, Economics, Mathematics, and Physics during my A-Levels.
+
+                    This platform offers insights into my academic pursuits, projects, experience and achievements! </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick = "opentab('education')">Education</p>
+                    <p class="tab-links" onclick = "opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick = "opentab('achievements')">Achievements</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id = "education">
+                        <ul>
+                            <li><span>SUNWAY COLLEGE (CIE A-LEVELS)</span><br></li>
+                            <li>Further Mathematics (A*)<br></li>
+                            <li>Economics (A*)<br></li>
+                            <li>Mathematics (A*)<br></li>
+                            <li>Physics (A*)<br></li>
+                        
+                            <li><span>NATIONAL UNIVERSITY OF SINGAPORE (NUS)</span><br></li>
+                            <li>• Bachelor of Computing (Computer Science) with Honours 28'</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "experience">
+                        <ul>
+                            <li><span>MALAYSIAN PALM OIL ASSOCIATION (MPOA) [Sept 2023-Dec 2023]</span><br></li>
+                            <li>Operating Assistant</li>
+                            <li>• Worked as part of a 12-member team to organise and execute the inaugural National Palm Oil Conference
+                                2023 at Grand Lagoon Ballroom.<br></li>
+                            <li>• This major event brought together over 600 attendees including notable dignitaries like Fadillah Yusof (our
+                                Honorable Deputy Prime Minister), leaders like Dato Lee Yeow Chor (CEO of IOI Properties, and the son of
+                                the late tycoon, Tan Sri Lee Shin Cheng), and Joseph Tek (CEO of MPOA).<br></li>
+                            <li>• Oversaw the technical operations and publicity for the event, including managing the technical aspects of
+                                the conference and ensuring seamless operations.<br></li>
+                            <li>• Collaborated with the team to implement strategies to optimise conference's operations.<br></li>
+
+                            <li><span>HUMANOMICS [Jun 2020-Aug 2020]</span><br></li>
+                            <li>Start-up Intern</li>
+                            <li>• Initiated and managed client relationships, encouraging local businesses to expand their reach by joining
+                                GRAB— one of the largest tech companies in Southeast Asia for deliveries, financial services, etc.<br></li>
+                            <li>• My role involved providing entrepreneurs with marketing strategies and advice tailored for expanding their
+                                business ventures onto the GRAB application.<br></li>
+
+                            <li><span>PRIVATE TUTOR [Feb 2022-Jan 2024]</span><br></li>
+                            <li>Self-employed</li>
+                            <li>• Tutored IGCSE students for subjects such as Additional Mathematics, Mathematics, and Economics.<br></li>
+
+                            <li><span>ENTREPRENEURSHIP [Dec 2016-Dec 2017]</span><br></li>
+                            <li>Founder</li>
+                            <li>• I founded my own toy brand on Instagram at age 13, effectively scaled my business from Instagram to Shopee.<br></li>
+                            <li> • Within a six-month period in 2017, I received over 500 toy orders, shipping to customers all over Malaysia.<br></li>
+                            <li>• Conducted thorough market research to strategically set my products apart from others. This facilitated global
+                                exposure for my products, highlighted by a video reaching more than 100k views on Instagram, which boosted
+                                sales.<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "achievements">
+                        <ul>
+                            <li><span>AWARDED THE JOHN HOPKINS CENTER FOR TALENTED YOUTH STEM CERTIFICATE</span><br></li>
+                            <li>• Had the privilege of being the sole representative from my cohort selected to enrol in the specialised “Ethnomathematics” course at the National University of Malaysia (UKM).<br></li>
+
+                            <li><span>NEGERI SEMBILAN MEDALIST LATIN CHAMPIONSHIP 24' </span><br></li>
+                            <li>• 1st place for 4 Latin American Dances:
+                                Rumba, Chacha, Jive, Samba <br></li>
+
+                            <li><span>MSSD KEJOHANAN BADMINTON WOMEN’S SINGLE 2015</span><br></li>
+                            <li>• 2nd runner up <br></li>
+
+                            <li><span>CHARM CHEERLEADING CHAMPIONSHIP 2016</span><br></li>
+                            <li>• 2nd runner up <br></li>        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--projects-->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="profession-list">
+            <div>
+                <h2>AI/ML MALARIA CLASSIFIER</h2>
+                <h4> • Built malaria classifiers (ML models) using TensorFlow’s 2D convolutional neural networks (CNNs) </h6>
+                <h4>• Applied data augmentation and filter refinement to optimise model performance, achieving 96% accuracy in the
+                    ML model </h4>
+            </div>
+            <div>
+                <h2>A-Level Revision Website (RevisionLah)</h2>
+                <h4>• Created a website offering topical notes and questions that has supported over 200 CIE A-Level students.</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- EXPERIENCE-->
+<div id="experiences">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="experience-list">
+            <div class="theexperience">
+                <img src = "images/TGT.JPG">
+                <div class="layer">
+                    <p><br> MALAYSIAN PALM OIL ASSOCIATION <br>
+                        • Organised and executed the inaugural National Palm Oil Conference 2023 at Grand Lagoon Ballroom as a team. <br>
+                        • Implemented strategies to optimise conference's operations.<br>
+                        Period: Sep 2023 - Dec 2023 · 4 mos <br>  
+                    </p>
+                </div>
+            </div>
+
+            <div class="theexperience">
+                <img src = "images/rotatedSTEM.jpg">
+                <div class="layer">
+                    <p><br> THE JOHN HOPKINS CENTER FOR TALENTED YOUTH STEM CERTIFICATE <br>
+                        • Honoured to be the sole representative from my cohort to enrol in the “Ethnomathematics” course at the National University of Malaysia (UKM). <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="theexperience">
+                <img src = "images/chem.JPG">
+                <div class="layer">
+                    <p><br> MALAYSIAN NATIONAL QUIZ 19' <br></p>
+                </div>
+            </div>
+
+            <div class="theexperience">
+                <img src = "images/kangaroo.png">
+                <div class="layer">
+                    <p><br> KANGAROO MATH COMPETITION 21' <br></p>
+                </div>
+            </div>
+
+            <div class="theexperience">
+                <img src = "images/charm.JPG">
+                <div class="layer">
+                    <p><br> CHARM CHEERLEADING CHAMPIONSHIP 15' <br></p>
+                </div>
+            </div>
+
+            <div class="theexperience">
+                <img src = "images/aiesec.png">
+                <div class="layer">
+                    <p><br> AIESEC Networking Event <br></p>
+                </div>
+            </div>
+
+            <div class="theexperience">
+                <img src = "images/A2.png">
+                <div class="layer">
+                    <p><br> CIE A-LEVELS RESULTS <br></p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Back To Home</a>
+    </div>
+</div>
+
+<!--CONTACT-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> Email: janicetek@u.nus.edu</p>
+                <p><i class="fa-brands fa-telegram"></i> Telegram: janicetek</p>
+                <p><i class="fa-solid fa-phone"></i> Tel: +65 8761 1279 (Janice Tek)</p>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/janicetek/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/janicetek"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="contactright">
+                <form name = "submit-to-google-sheet">
+                    <input type = "text" name = "Name" placeholder = "Your Name" required>
+                    <!-- be careful with upper or lower case for name because micorsoft sheets need to refer to this "name" -->
+                    <input type = "email" name = "Email" placeholder = "Your Email" required>
+                    <textarea name = "Message" rows = "6" placeholder = "Your Message"></textarea>
+                    <button type = "submit" class="btn btn2">Submit</button>
+                </form>
+                <span id = "msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Created by Janice Tek</p>
+
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links"); <!-- class of tab-links-->
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab"); 
+        <!--to display the contents when pressing tabs-->
+    }
+</script>
+
+<script> <!--to move the red bar on the right using JS-->
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwFr1t_t1kBc7J7R2oy2E0oS-KkPRQzhTwo0U-U1kbCqr1x169GFLfHLDzR4SW2J9Cb/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Your message has been sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
