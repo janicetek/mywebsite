@@ -427,3 +427,21 @@ nav .fa-solid{
     display: block;
 }
 
+.btn3{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid rgb(248, 243, 248);
+    padding: 14px 50px; /* some spaces inside button*/
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn3:hover{
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+
+
+
